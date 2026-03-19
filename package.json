@@ -1,12 +1,14 @@
 {
   "name": "markdown-online-editor",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "author": "nicejade",
   "private": true,
   "description": "Arya，是一款基于 Vue、Vditor，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持 PPT 预览，以及绘制流程图、甘特图、时序图、任务列表、五线谱，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等。",
   "scripts": {
     "start": "yarn serve",
+    "prestart": "node -e \"const{cpSync,mkdirSync}=require('fs');mkdirSync('public/vendor',{recursive:true});cpSync('node_modules/@turbodocx/html-to-docx/dist/html-to-docx.browser.js','public/vendor/html-to-docx.browser.js')\"",
     "serve": "vue-cli-service serve --open",
+    "prebuild": "node -e \"const{cpSync,mkdirSync}=require('fs');mkdirSync('public/vendor',{recursive:true});cpSync('node_modules/@turbodocx/html-to-docx/dist/html-to-docx.browser.js','public/vendor/html-to-docx.browser.js')\"",
     "build": "vue-cli-service build",
     "watcher": "onchange \"src/**/**/*.{js,css,scss,vue}\" -- prettier --write {{changed}}",
     "prettier": "prettier --write \"src/**/**/*.{js,css,scss,vue}\"",
@@ -23,6 +25,7 @@
     "preview": "node ./commands/preview.js"
   },
   "dependencies": {
+    "@turbodocx/html-to-docx": "^1.20.1",
     "canvg": "^2.0.0",
     "element-ui": "^2.12.0",
     "hint.css": "^2.6.0",

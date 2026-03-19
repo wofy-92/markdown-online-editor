@@ -25,6 +25,13 @@ export default [
         component: (resolve) => require(['@pages/ExportPdf'], resolve),
       },
       {
+        path: 'docx',
+        meta: {
+          title: `导出 Word | ${window.$appTitle}`,
+        },
+        component: (resolve) => require(['@pages/ExportDocx'], resolve),
+      },
+      {
         path: 'ppt',
         meta: {
           title: `PPT 预览 | ${window.$appTitle}`,

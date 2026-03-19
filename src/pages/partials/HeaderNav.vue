@@ -88,6 +88,12 @@
                 {{ exportTextMap['/export/pdf'] }}
               </a>
             </el-dropdown-item>
+            <el-dropdown-item command="/export/docx">
+              <icon class="dropdown-icon" name="download" />
+              <a href="/export/docx" target="_self" class="dropdown-text">
+                {{ exportTextMap['/export/docx'] }}
+              </a>
+            </el-dropdown-item>
             <el-dropdown-item command="/export/html" disabled divided>
               <icon class="dropdown-icon" name="download" />
               <a href="/export/html" target="_self" class="dropdown-text">导出 HTML</a>

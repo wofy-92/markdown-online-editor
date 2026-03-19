@@ -22,7 +22,7 @@ export const getTimestamp = () => {
 }
 
 export const getExportFileName = () => {
-  const type = location.pathname.split('/')[0]
+  const type = location.pathname.split('/').pop()
   const timestamp = getTimestamp()
   const filename = `arya-${timestamp}.${type}`
   return filename
