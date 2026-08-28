@@ -10,5 +10,5 @@
   <polygon fill="url(#area-dark)" points="52,324 52,264 764,264 764,324"/>
   <polyline fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="52,264 764,264"/>
   <circle cx="764" cy="264" r="4" fill="#f59e0b" />
-  <text x="52" y="346" text-anchor="start" font-size="11" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">2024</text><text x="118.38" y="346" text-anchor="middle" font-size="11" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">2025</text><text x="508.71" y="346" text-anchor="middle" font-size="11" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">2026</text>
+  <text x="52" y="346" text-anchor="start" font-size="11" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">2024</text><text x="118.28" y="346" text-anchor="middle" font-size="11" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">2025</text><text x="508" y="346" text-anchor="middle" font-size="11" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">2026</text>
 </svg>
